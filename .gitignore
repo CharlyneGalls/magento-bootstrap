@@ -1,7 +1,46 @@
-# Ignore everything:
-*
+# Ignore * :
+/downloader
+/errors
+/includes
+/js
+/lib
+/media
+/pkginfo
+/shell
+/var
+/.gitignore
+/.htaccess
+/.htaccess.sample
+/api.php
+/cron.php
+/cron.sh
+/favicon.ico
+/get.php
+/index.php
+/index.php.sample
+/install.php
+/LICENSE.html
+/LICENSE.txt
+/LICENSE_AFL.txt
+/mage
+/php.ini.sample
+/RELEASE_NOTES.txt
 
-# Except for the themes directories:
+# Ignore * in app :
+/app/code
+/app/design/adminhtml
+app/design/frontend/base
+app/design/frontend/default
+app/design/frontend/rwd
+/app/design/install
+/app/etc
+/app/locale
+/app/.htaccess
+/app/Mage.php
 
-!app/design/frontend/boostrap/*/
-!skin/frontend/bootstrap/*/
+# Ignore * in skin :
+/skin/adminhtml
+/skin/frontend/base
+/skin/frontend/default
+/skin/frontend/rwd
+/skin/install
