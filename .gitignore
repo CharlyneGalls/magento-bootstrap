@@ -1,0 +1,7 @@
+# Ignore everything:
+*
+
+# Except for the themes directories:
+
+!app/design/frontend/boostrap/*/
+!skin/frontend/bootstrap/*/
