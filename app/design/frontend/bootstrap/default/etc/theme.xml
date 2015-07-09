@@ -26,5 +26,5 @@
  */
 -->
 <theme>
-    <parent>rwd/default</parent>
+    <parent />
 </theme>
