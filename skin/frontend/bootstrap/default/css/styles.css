@@ -3927,7 +3927,7 @@ input[type="search"] {
   }
 }
 /* line 209, ../scss/vendor/bootstrap/_forms.scss */
-.form-group {
+.form-group, .form-search {
   margin-bottom: 15px;
 }
 
@@ -4297,7 +4297,7 @@ select[multiple].input-lg,
 
 @media (min-width: 768px) {
   /* line 472, ../scss/vendor/bootstrap/_forms.scss */
-  .form-inline .form-group {
+  .form-inline .form-group, .form-inline .form-search {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
@@ -4372,17 +4372,17 @@ select[multiple].input-lg,
   min-height: 27px;
 }
 /* line 569, ../scss/vendor/bootstrap/_forms.scss */
-.form-horizontal .form-group {
+.form-horizontal .form-group, .form-horizontal .form-search {
   margin-left: -15px;
   margin-right: -15px;
 }
 /* line 14, ../scss/vendor/bootstrap/mixins/_clearfix.scss */
-.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+.form-horizontal .form-group:before, .form-horizontal .form-search:before, .form-horizontal .form-group:after, .form-horizontal .form-search:after {
   content: " ";
   display: table;
 }
 /* line 19, ../scss/vendor/bootstrap/mixins/_clearfix.scss */
-.form-horizontal .form-group:after {
+.form-horizontal .form-group:after, .form-horizontal .form-search:after {
   clear: both;
 }
 @media (min-width: 768px) {
@@ -4426,7 +4426,7 @@ select[multiple].input-lg,
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 20px;
   border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5884,7 +5884,7 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   /* line 472, ../scss/vendor/bootstrap/_forms.scss */
-  .navbar-form .form-group {
+  .navbar-form .form-group, .navbar-form .form-search {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
@@ -5945,11 +5945,11 @@ tbody.collapse.in {
 }
 @media (max-width: 767px) {
   /* line 298, ../scss/vendor/bootstrap/_navbar.scss */
-  .navbar-form .form-group {
+  .navbar-form .form-group, .navbar-form .form-search {
     margin-bottom: 5px;
   }
   /* line 302, ../scss/vendor/bootstrap/_navbar.scss */
-  .navbar-form .form-group:last-child {
+  .navbar-form .form-group:last-child, .navbar-form .form-search:last-child {
     margin-bottom: 0;
   }
 }
@@ -13000,4 +13000,60 @@ button.close {
 
 /* Tools */
 /* Layout */
+/* line 6, ../scss/layout/_header.scss */
+header .logo {
+  margin: 0;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 6, ../scss/layout/_header.scss */
+  header .logo {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 6, ../scss/layout/_header.scss */
+  header .logo {
+    float: left;
+    width: 33.33333%;
+  }
+}
+/* line 10, ../scss/layout/_header.scss */
+header .logo strong {
+  display: none;
+}
+/* line 14, ../scss/layout/_header.scss */
+header .quick-access {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 14, ../scss/layout/_header.scss */
+  header .quick-access {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 14, ../scss/layout/_header.scss */
+  header .quick-access {
+    float: left;
+    width: 66.66667%;
+  }
+}
+
 /* Modules */

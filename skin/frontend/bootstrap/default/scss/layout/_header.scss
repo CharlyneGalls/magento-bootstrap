@@ -1,0 +1,18 @@
+//
+// Header
+// --------------------------------------------------
+
+header {
+  .logo {
+    margin: 0;
+    @include make-sm-column(6);
+    @include make-md-column(4);
+    strong {
+      display: none;
+    }
+  }
+  .quick-access {
+    @include make-sm-column(6);
+    @include make-md-column(8);
+  }
+}

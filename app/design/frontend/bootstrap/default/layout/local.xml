@@ -41,7 +41,7 @@
             <!-- Add our assets -->
             <action method="addJs"><script>lib/jquery/jquery-1.10.2.min.js</script></action>
             <action method="addJs"><script>lib/jquery/noconflict.js</script></action>
-            <action method="addItem"><type>skin_js</type><name>js/lib/modernizr.custom.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/vendor/modernizr.custom.min.js</name></action>
             <action method="addItem"><type>skin_js</type><name>js/vendor/bootstrap.min.js</name></action>
 
         </reference>
